@@ -49,26 +49,6 @@
 - SDK Version `33, 32, 31 and 30`.
 - ICU for linux (optional):
 
-  ```
-  git clone https://github.com/unicode-org/icu
-  cd icu/icu4c
-  cd source
-  ./configure --prefix=/usr
-  make
-  sudo make install
-  ```
-- You need to add the following`:
-
-  - Your `release.keystore` and `google-services.json`
-  - Your `sensitive.js` file, [see more info here](/src/secrets/info.md)
-  - You should add keystore  credentials as environment variables: `KEYPASS`, `KEYALIAS` and `KEYALIASPASS`
-
-  ```
-  export KEYALIAS=YOURKEYALIAS
-  export KEYPASS=YOURKEYPASS
-  export KEYALIASPASS=YOURKEYALIASPASS
-  ```
-
 ### Commit message
 
 When you've made changes to one or more files, you have to *commit* that file. You also need a *message* for that *commit*.
@@ -96,13 +76,6 @@ And that summarized:
 - `chore: bump Moon Meet version from X.X.X to X.X.X `
 
 ### Thanks for contributing
-
-##### Thanks goes to these wonderful people:
-
-- [Pranav Purwar](https://github.com/PranavPurwar): for Android CI Workflow.
-- [Ahmed Sbai](https://github.com/sbaiahmed1): for Supporting me since the beginning of Moon Meet.
-
-Thanks, they help to keep **Moon Meet** alive. It's better to have multiple people work on a project, for more ideas, fewer bugs. (sadly sometimes more), and generally quicker development. Each (helpful) contribution that gets thankfully accepted.
 
 ### Social
 
