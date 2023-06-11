@@ -38,8 +38,6 @@
 </p>
 </details>
 
-### Contributing
-
 #### Requirments:
 
 - A working react native environment.
@@ -49,51 +47,7 @@
 - SDK Version `33, 32, 31 and 30`.
 - ICU for linux (optional):
 
-### Commit message
-
-When you've made changes to one or more files, you have to *commit* that file. You also need a *message* for that *commit*.
-
-You should read these guidelines:
-https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
-
-And that summarized:
-
-- Short and detailed
-- Prefix one of these commit types:
-  - `feat:` A feature, possibly improving something already existing
-  - `fix:` A fix, for example of a bug
-  - `style:` Feature and updates related to styling
-  - `refactor:` Refactoring a specific section of the codebase
-  - `test:` Everything related to testing
-  - `docs:` Everything related to documentation
-  - `chore:` Code maintenance (you can also use emojis to represent commit types)
-
-**Examples:**
-
-- `feat: Improve end-to-end encryption `
-- `fix: Fix story not showing in some browsers`
-- `refactor: Reformat code at File.*`
-- `chore: bump Moon Meet version from X.X.X to X.X.X `
-
-### Thanks for contributing
-
 ### Social
 
 - [Facebook](https://www.facebook.com/moonmeetofficial)
 - [Telegram](https://t.me/MoonMeet)
-
-## License
-
-```
-Copyright (C) 2022  SectionTN
-
-This program is free software: you can redistribute it and/or modify
-it is under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, 
-or any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-```
